@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link rel="stylesheet" href="./style.css">  
+
+  </head>
+</html>
+
+<body>
+
+    <form id="filter-select">
+
+        <div id="filter-rate">
+            <label for="rating-filter">Filter by rating:</label>
+            <select id="rating-filter">
+              <option value="">All</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="category-filter">Filter by category:</label>
+            <select id="category-filter">
+              <option value="">All</option>
+              <option value="electronics">electronics</option>
+              <option value="men's clothing">men's clothing</option>
+              <option value="women's clothing">women's clothing</option>
+              <option value="jewelery">jewelery</option>
+            </select>
+          </div>
+
+          <div id="order">
+            <label for="order-by">Order by rating:</label>
+            <select id="order-by">
+              <option value="">Select</option>
+              <option value="asc">Ascending</option>
+              <option value="desc">Descending</option>
+            </select>
+          </div>    
+
+          <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search by title">
+          
+            </div>
+  
+        <button type="submit" >submit</button>
+  
+      </form>
+        
+
+
+    <div id="product-list"></div>
+    <script src="script.js"></script>
+</body>
+  
